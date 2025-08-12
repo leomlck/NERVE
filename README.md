@@ -3,7 +3,7 @@
 ## Description
 
 ### **Model Overview**
-![Model Overview](figures/overview.pdf)
+![Model Overview](figures/overview.png)
 
 Predicting behavioral traits from resting-state functional MRI (rs-fMRI) remains a central challenge in neuroscience due to the complex, high-dimensional, and noisy nature of brain connectivity data. **NERVE** is a novel self-supervised learning framework tailored for brain connectivity data, adapting the masked autoencoder paradigm to high-resolution functional connectivity (FC) matrices with neurobiologically informed patching based on network parcellations.  
 Instead of uniform spatial masking, NERVE reconstructs connectivity between functional networks, encouraging biologically meaningful representations. The model supports multiple patch embedding strategies and incorporates a teacher–student distillation scheme to improve semantic consistency.  
@@ -11,7 +11,7 @@ We evaluate NERVE on large-scale developmental rs-fMRI datasets (ABCD, PNC, CCNP
 
 ### **Patch Embedding Strategies**
 Our embedding strategies can be found in [`models/patch_embeddings.py`](models/patch_embeddings.py).  
-![Patch Embeddings](figures/patch_embeddings.pdf)
+![Patch Embeddings](figures/patch_embeddings.ong)
 
 ## Code Repository Usage
 
