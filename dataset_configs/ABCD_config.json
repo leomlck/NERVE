@@ -1,0 +1,16 @@
+{
+  "data_path": "/midtier/sablab/scratch/lem4012/data/abcd-data-hr",
+  "variables_csv":"/midtier/sablab/scratch/lem4012/data/abcd-data-hr/ABCD_variables.csv",
+  "path_features": "/midtier/sablab/scratch/lem4012/save/fc_mae_features",
+  "path_save_results": "/midtier/sablab/scratch/lem4012/save/krr_results_ABCD",
+  "id_col":"src_subject_id",
+  "target_cols":["cbcl_scr_syn_anxdep_r", "cbcl_scr_syn_withdep_r", "cbcl_scr_syn_somatic_r", "cbcl_scr_syn_social_r", 
+	  "cbcl_scr_syn_thought_r", "cbcl_scr_syn_attention_r", "cbcl_scr_syn_rulebreak_r", "cbcl_scr_syn_aggressive_r",
+	  "nihtbx_picvocab_uncorrected", "nihtbx_flanker_uncorrected", "nihtbx_picture_uncorrected", "nihtbx_cardsort_uncorrected",
+	  "nihtbx_pattern_uncorrected", "nihtbx_reading_uncorrected", "nihtbx_list_uncorrected",
+	  "sex_bin"
+                       ],
+  "covariate_cols":["interview_age", "sex_bin"],
+  "use_site_id": false,
+  "site_id_col" : "site_id_l"
+}

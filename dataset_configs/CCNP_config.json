@@ -1,0 +1,16 @@
+{
+  "data_path": "/midtier/sablab/scratch/lem4012/data/ccnp-data-hr",
+  "variables_csv":"/midtier/sablab/scratch/lem4012/data/ccnp-data-hr/CCNP_variables.csv",
+  "path_features": "/midtier/sablab/scratch/lem4012/save/fc_mae_features",
+  "path_save_results": "/midtier/sablab/scratch/lem4012/save/krr_results_CCNP",
+  "id_col":"src_subject_id",
+  "target_cols":["p_factor_mcelroy_harmonized_all_samples",
+          "internalizing_mcelroy_harmonized_all_samples",
+          "externalizing_mcelroy_harmonized_all_samples",
+          "attention_mcelroy_harmonized_all_samples",
+          "age", "sex_bin"
+                       ],
+  "covariate_cols":["age", "sex_bin"],
+  "use_site_id": false,
+  "site_id_col" : "site_id_l"
+}
