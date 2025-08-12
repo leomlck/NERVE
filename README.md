@@ -11,7 +11,7 @@ We evaluate NERVE on large-scale developmental rs-fMRI datasets (ABCD, PNC, CCNP
 
 ### **Patch Embedding Strategies**
 Our embedding strategies can be found in [`models/patch_embeddings.py`](models/patch_embeddings.py).  
-![Patch Embeddings](figures/patch_embeddings.ong)
+![Patch Embeddings](figures/patch_embeddings.png)
 
 ## Code Repository Usage
 
