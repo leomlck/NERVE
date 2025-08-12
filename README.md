@@ -18,16 +18,16 @@ Our embedding strategies can be found in [`models/patch_embeddings.py`](models/p
 We use **Weights & Biases** ([wandb](https://wandb.ai/)) to log and track all experiments.
 
 ### **Training**
-Use `slurm_train.py` to submit jobs that run `train.py` with different configurations:
+Modify `slurm_train.py` to submit jobs that run `train.py` with different configurations:
 ```bash
-python slurm_train.py --config configs/your_config.json
+python slurm_train.py
 ```
 
 ### **Inference / Feature Extraction**
 
 Use `slurm_inference.py` to generate features with `inference.py` for a specific dataset and a specific trained model (identified by its wandb run ID):
 ```bash
-python slurm_inference.py --dataset <DATASET_NAME> --model_id <wandb_run_id>
+python slurm_inference.py --dataset <DATASET_NAME> --wandb-ids <wandb_run_id>
 ```
 
 ## **Data / Use Your Own Data**
