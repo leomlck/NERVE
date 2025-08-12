@@ -31,6 +31,7 @@ python slurm_train.py --config configs/your_config.json
 Use `slurm_inference.py` to generate features with `inference.py` for a specific dataset and a specific trained model (identified by its wandb run ID):
 ```bash
 python slurm_inference.py --dataset <DATASET_NAME> --model_id <wandb_run_id>
+```
 
 ## **Data / Use Your Own Data**
 
@@ -41,18 +42,21 @@ To use your own dataset with NERVE, follow these steps using the scripts in the 
     Example:
     ```bash
     python preprocessing_utils/preprocess_abcd_hr_data.py --input_path <raw_data_path> --output_path <processed_data_path>
+    ```
 
 2.	**Generate Dataset Summary CSV**
-  Create a CSV file listing subject IDs and paths to their corresponding .pt files.
-  Example:
-  ```bash
-  python preprocessing_utils/make_abcd_dataset_paths_file.py --data_path <processed_data_path> --output_csv <dataset_csv_path>
+    Create a CSV file listing subject IDs and paths to their corresponding .pt files.
+    Example:
+    ```bash
+    python preprocessing_utils/make_abcd_dataset_paths_file.py --data_path <processed_data_path> --output_csv <dataset_csv_path>
+    ```
 
 3.	Update Dataset Configuration
     Edit or create the dataset configuration JSON file in dataset_configs/{dataset}_config.json.
     Example:
     ```bash
     nano dataset_configs/ABCD_config.json
+    ```
 
 Make sure to set the correct paths and parameters for your dataset.
 
