@@ -24,7 +24,7 @@ We use **Weights & Biases** ([wandb](https://wandb.ai/)) to log and track all ex
 Use `slurm_train.py` to submit jobs that run `train.py` with different configurations:
 ```bash
 python slurm_train.py --config configs/your_config.json
-```bash
+```
 
 ### **Inference / Feature Extraction**
 
