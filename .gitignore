@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Outputs/checkpoints/features
+outputs/
+wandb/
+job_out/
+job_err/
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Data are not committed by default
+data/

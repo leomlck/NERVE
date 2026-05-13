@@ -1,0 +1,17 @@
+{
+  "data_path": "data/CCNP",
+  "csv_file": "data/CCNP/CCNP_dataset.csv",
+  "variables_csv": "data/CCNP/CCNP_variables.csv",
+  "id_col": "src_subject_id",
+  "target_cols": [
+    "p_factor_mcelroy_harmonized_all_samples",
+    "internalizing_mcelroy_harmonized_all_samples",
+    "externalizing_mcelroy_harmonized_all_samples"
+  ],
+  "covariate_cols": [
+    "age",
+    "sex_bin"
+  ],
+  "use_site_id": false,
+  "site_id_col": "site_id_l"
+}

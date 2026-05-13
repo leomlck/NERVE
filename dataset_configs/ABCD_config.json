@@ -1,0 +1,18 @@
+{
+  "data_path": "data/ABCD",
+  "csv_file": "data/ABCD/ABCD_dataset.csv",
+  "variables_csv": "data/ABCD/ABCD_variables.csv",
+  "id_col": "src_subject_id",
+  "target_cols": [
+    "cbcl_scr_syn_internal_t",
+    "cbcl_scr_syn_external_t",
+    "cbcl_scr_syn_totprob_t"
+  ],
+  "covariate_cols": [
+    "interview_age",
+    "sex_bin"
+  ],
+  "use_site_id": false,
+  "site_id_col": "site_id_l",
+  "cv_splits": "data/ABCD/ABCD_k10_splits.csv"
+}
