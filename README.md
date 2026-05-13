@@ -2,7 +2,7 @@
 
 NERVE is a self-supervised learning framework for resting-state functional connectivity (FC) representation learning. It adapts masked autoencoding to FC matrices by redefining the tokenization step: FC matrices are partitioned into intra- and inter-network connectivity blocks, and each block is embedded as a token using a structured bilinear, network-aware factorization. This preserves large-scale network identity while keeping the parameterization efficient. In the MICCAI 2026 paper, NERVE is evaluated across developmental cohorts for behavior and psychopathology prediction, showing more stable and transferable representations than structurally agnostic MAE variants and graph-based self-supervised baselines.
 
-![Overview of NERVE](figures/fig_overview_miccai26.png)
+![Overview of NERVE](figures/fig_overview_miccai26.pdf)
 
 **Overview of NERVE.** A. The functional connectivity (FC) matrix is partitioned into patches defined by pairs of functional brain networks. B. **Network-aware Bilinear Tokenization.** Each functional network is assigned learnable network-specific weights at initialization, and patch tokens are computed through structured bilinear interactions between network weights during forward. C. **MAE Framework.** We apply a standard MAE framework to the proposed network-aware tokens, thereby introducing a functionally informed inductive bias over connectivity structure.
 
